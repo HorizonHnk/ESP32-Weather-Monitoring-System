@@ -11,9 +11,43 @@
 
 *A comprehensive IoT weather monitoring system with real-time data visualization and WhatsApp alerts*
 
-[🚀 Quick Start](#-quick-start) • [📋 Features](#-features) • [🔧 Installation](#-installation) • [🔌 Hardware](#-hardware-setup) • [📊 Usage](#-usage) • [🔍 MQTT Testing](#-mqtt-testing)
+[🚀 Quick Start](#-quick-start) • [📋 Features](#-features) • [🔧 Installation](#-installation) • [🔌 Hardware](#-hardware-setup) • [📊 Usage](#-usage) • [🔍 MQTT Testing](#-mqtt-testing) • [📺 Video Tutorials](#-video-tutorials)
 
 </div>
+
+---
+
+## 📺 Video Tutorials
+
+**Complete YouTube Tutorial Series**: [ESP32 Weather Monitor Playlist](https://youtube.com/playlist?list=PLxxx-esp32-weather-monitor)
+
+### 🎥 **Essential Videos**
+
+| Tutorial | Duration | Difficulty | Description |
+|----------|----------|------------|-------------|
+| 🚀 [**Quick Start Guide**](https://youtube.com/watch?v=quick-start-guide) | 15 min | Beginner | Complete system overview and 20-minute setup |
+| 🔧 [**Hardware Assembly**](https://youtube.com/watch?v=hardware-assembly) | 25 min | Beginner | Step-by-step wiring and component connections |
+| 💻 [**Software Setup**](https://youtube.com/watch?v=software-setup) | 20 min | Intermediate | Arduino IDE, Node-RED installation and configuration |
+| 📊 [**Dashboard Configuration**](https://youtube.com/watch?v=dashboard-config) | 18 min | Intermediate | Node-RED flow setup and customization |
+| 📱 [**WhatsApp Integration**](https://youtube.com/watch?v=whatsapp-setup) | 12 min | Advanced | Complete WhatsApp notification setup |
+| 🐛 [**Troubleshooting Guide**](https://youtube.com/watch?v=troubleshooting) | 30 min | All Levels | Common issues and solutions |
+
+### 📚 **Advanced Topics**
+
+| Tutorial | Focus Area | Description |
+|----------|------------|-------------|
+| 🌐 [**MQTT Deep Dive**](https://youtube.com/watch?v=mqtt-deep-dive) | Networking | Advanced MQTT configuration and debugging |
+| 🔬 [**Sensor Calibration**](https://youtube.com/watch?v=sensor-calibration) | Hardware | Precision calibration and error handling |
+| 🏠 [**Home Assistant Integration**](https://youtube.com/watch?v=homeassistant-integration) | Smart Home | Complete smart home automation setup |
+| 📈 [**Data Analytics**](https://youtube.com/watch?v=data-analytics) | Analysis | Advanced data logging and trend analysis |
+
+### 🔴 **Live Streams & Updates**
+- **Weekly Q&A Sessions**: Fridays at 7 PM EST
+- **New Feature Demos**: When updates are released  
+- **Community Build Sessions**: Monthly collaborative builds
+- **Troubleshooting Help**: Live assistance for common issues
+
+**Subscribe & Bell Notification**: [ESP32 Weather Monitor Channel](https://youtube.com/@esp32weathermonitor) for latest videos and live streams!
 
 ---
 
@@ -26,6 +60,8 @@
 3. **Code**: Upload Arduino sketch with your WiFi credentials
 4. **Dashboard**: Install Node-RED + Import flow + Deploy
 5. **Test**: View dashboard at `http://localhost:1880/ui`
+
+📺 **Video Tutorial**: [Complete Setup Guide](https://youtube.com/watch?v=setup-guide) | [Hardware Assembly](https://youtube.com/watch?v=hardware-assembly) | [Software Configuration](https://youtube.com/watch?v=software-config)
 
 <details>
 <summary>📌 <strong>One-Click Setup Commands</strong></summary>
@@ -274,6 +310,8 @@ node-red-contrib-whatsapp-cmb       # WhatsApp notifications
 
 ### Step 1: Arduino IDE Setup
 
+📺 **Video Guide**: [Arduino IDE Setup for ESP32](https://youtube.com/watch?v=arduino-esp32-setup) | [Library Installation Tutorial](https://youtube.com/watch?v=library-install)
+
 #### 1.1 Install Arduino IDE v2.3.4
 ```bash
 # Download Arduino IDE v2.3.4 (EXACT VERSION REQUIRED)
@@ -357,6 +395,8 @@ node-red
 ---
 
 ## 🔌 Hardware Setup
+
+📺 **Wiring Videos**: [Complete Hardware Assembly](https://youtube.com/watch?v=hardware-wiring) | [Breadboard Layout Guide](https://youtube.com/watch?v=breadboard-guide) | [Troubleshooting Connections](https://youtube.com/watch?v=wiring-troubleshoot)
 
 ### 📐 **Complete Wiring Diagram**
 
@@ -675,6 +715,8 @@ LM35 Temp: 25.1°C
 
 ### Step 3: Import Node-RED Flow
 
+📺 **Node-RED Tutorial**: [Node-RED Installation & Setup](https://youtube.com/watch?v=nodered-setup) | [Importing Flows Guide](https://youtube.com/watch?v=import-flows) | [Dashboard Configuration](https://youtube.com/watch?v=dashboard-config)
+
 #### 3.1 Start Node-RED
 ```bash
 # Open terminal/command prompt
@@ -888,6 +930,8 @@ switch:
 ---
 
 ## 🔍 MQTT Testing
+
+📺 **MQTT Testing Videos**: [HiveMQ Dashboard Tutorial](https://youtube.com/watch?v=hivemq-dashboard) | [MQTT Explorer Setup](https://youtube.com/watch?v=mqtt-explorer) | [MQTT Troubleshooting Guide](https://youtube.com/watch?v=mqtt-troubleshoot)
 
 ### Option 1: HiveMQ Dashboard (Recommended)
 
@@ -1120,6 +1164,8 @@ Solutions:
 ---
 
 ## 📱 WhatsApp Integration
+
+📺 **WhatsApp Setup Video**: [Complete WhatsApp Integration Guide](https://youtube.com/watch?v=whatsapp-integration) | [CallMeBot API Setup](https://youtube.com/watch?v=callmebot-setup)
 
 The system includes comprehensive WhatsApp notification capabilities for temperature alerts with detailed weather information.
 
@@ -1774,6 +1820,8 @@ float calibratedAnalogTemp = applyCurveFitting(analogTemp, lm35Cal, 3);
 ---
 
 ## 🐛 Troubleshooting
+
+📺 **Troubleshooting Videos**: [Common ESP32 Issues](https://youtube.com/watch?v=esp32-troubleshoot) | [Sensor Problems & Solutions](https://youtube.com/watch?v=sensor-troubleshoot) | [Network Connection Issues](https://youtube.com/watch?v=network-troubleshoot) | [Complete Diagnostic Guide](https://youtube.com/watch?v=diagnostic-guide)
 
 ### 🔧 **Common Issues & Solutions**
 
@@ -2458,6 +2506,8 @@ git push origin feature/your-feature-name
 3. **International Setup**: Configuration for different countries/APIs
 4. **Advanced Configurations**: Enterprise deployment guides
 
+📺 **Our YouTube Channel**: [ESP32 Weather Monitor Tutorials](https://youtube.com/@esp32weathermonitor) - Subscribe for latest video guides, troubleshooting tips, and project updates!
+
 ### 🏷️ **Issue Labels & Project Management**
 
 We use the following labels to organize contributions:
@@ -2625,6 +2675,13 @@ For critical applications (medical, safety systems, industrial control), additio
 </td>
 <td width="50%">
 
+#### **Educational Content & Inspiration**
+- **[Andreas Spiess](https://youtube.com/@AndreasSpiess)** - The Guy with the Swiss Accent: ESP32 tutorials and IoT concepts
+- **[RandomNerdTutorials](https://youtube.com/@RandomNerdTutorials)** - Comprehensive ESP32 and Arduino projects
+- **[DroneBot Workshop](https://youtube.com/@Dronebotworkshop)** - Electronics tutorials and sensor projects
+- **[GreatScott!](https://youtube.com/@greatscottlab)** - Electronics fundamentals and project ideas
+- **[ExplainingComputers](https://youtube.com/@ExplainingComputers)** - Technology education and IoT concepts
+
 #### **Open Source Libraries**
 - **[ArduinoJson](https://arduinojson.org/)** by Benoit Blanchon - Elegant JSON parsing
 - **[PubSubClient](https://pubsubclient.knolleary.net/)** by Nick O'Leary - Reliable MQTT client
@@ -2747,9 +2804,17 @@ This project promotes environmental awareness through:
 ### 📱 **Connect With Us**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/yourusername)
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://youtube.com/@esp32weathermonitor)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter)](https://twitter.com/yourhandle)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://youtube.com/yourchannel)
+
+📺 **YouTube Channel Features:**
+- 🎥 **Complete Tutorials**: Step-by-step video guides for assembly and setup
+- 🔧 **Troubleshooting Videos**: Visual solutions for common problems  
+- 🆕 **New Feature Demos**: Latest updates and enhancements
+- 💡 **Tips & Tricks**: Pro tips for optimal performance
+- 🎓 **Educational Content**: IoT concepts and ESP32 programming
+- 🔴 **Live Streams**: Weekly Q&A and project build sessions
 
 ---
 
