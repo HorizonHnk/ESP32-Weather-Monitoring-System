@@ -1185,8 +1185,8 @@ The system includes comprehensive WhatsApp notification capabilities for tempera
 3. **Edit Configuration**:
    ```javascript
    // Update these values in the function:
-   var phone = "+27719568735";        // ← Your phone number
-   var apikey = "7145060";            // ← Your API key
+   var phone = "+XX XX XXX XXXX";        // ← Your phone number
+   var apikey = "XXXXXXX";            // ← Your API key
    ```
 4. **Deploy Changes**: Click red **Deploy** button
 
