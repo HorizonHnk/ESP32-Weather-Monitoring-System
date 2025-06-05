@@ -51,7 +51,17 @@
 
 ---
 
+## 🌐 **Complete Project Website**
+
+**🚀 Explore the full project**: [ESP32 Weather Monitoring System](https://classy-arithmetic-fd531c.netlify.app/)
+
+*Complete documentation, tutorials, and resources in one place*
+
+---
+
 ## 🚀 Quick Start
+
+**🌐 Full Setup Guide**: [Visit Project Website](https://classy-arithmetic-fd531c.netlify.app/) for complete instructions
 
 **Get running in 20 minutes:**
 
@@ -82,6 +92,7 @@ node-red
 
 ## 📋 Table of Contents
 
+- [🌐 **Project Website**](https://classy-arithmetic-fd531c.netlify.app/) ← **Complete Guide**
 - [🌟 Features](#-features)
 - [🔧 Hardware Requirements](#-hardware-requirements)
 - [💻 Software Requirements](#-software-requirements)
@@ -2799,7 +2810,7 @@ This project promotes environmental awareness through:
 
 ### 🔗 **Quick Navigation**
 
-[🏠 Home](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System) • [📋 Issues](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/issues) • [🔄 Pull Requests](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/pulls) • [📖 Wiki](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/wiki) • [💬 Discussions](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/discussions) • [📈 Insights](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/pulse)
+[🌐 Project Website](https://classy-arithmetic-fd531c.netlify.app/) • [🏠 Home](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System) • [📋 Issues](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/issues) • [🔄 Pull Requests](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/pulls) • [📖 Wiki](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/wiki) • [💬 Discussions](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/discussions) • [📈 Insights](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/pulse)
 
 ### 📱 **Connect With Us**
 
