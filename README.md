@@ -19,27 +19,27 @@
 
 ## 📺 Video Tutorials
 
-**Complete YouTube Tutorial Series**: [ESP32 Weather Monitor Playlist](https://youtube.com/playlist?list=PLxxx-esp32-weather-monitor)
+**Complete YouTube Tutorial Series**: [ESP32 Weather Monitor Playlist](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef)
 
 ### 🎥 **Essential Videos**
 
 | Tutorial | Duration | Difficulty | Description |
 |----------|----------|------------|-------------|
-| 🚀 [**Quick Start Guide**](https://youtube.com/watch?v=quick-start-guide) | 15 min | Beginner | Complete system overview and 20-minute setup |
-| 🔧 [**Hardware Assembly**](https://youtube.com/watch?v=hardware-assembly) | 25 min | Beginner | Step-by-step wiring and component connections |
-| 💻 [**Software Setup**](https://youtube.com/watch?v=software-setup) | 20 min | Intermediate | Arduino IDE, Node-RED installation and configuration |
-| 📊 [**Dashboard Configuration**](https://youtube.com/watch?v=dashboard-config) | 18 min | Intermediate | Node-RED flow setup and customization |
-| 📱 [**WhatsApp Integration**](https://youtube.com/watch?v=whatsapp-setup) | 12 min | Advanced | Complete WhatsApp notification setup |
-| 🐛 [**Troubleshooting Guide**](https://youtube.com/watch?v=troubleshooting) | 30 min | All Levels | Common issues and solutions |
+| 🚀 [**Quick Start Guide**](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | 15 min | Beginner | Complete system overview and 20-minute setup |
+| 🔧 [**Hardware Assembly**](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | 25 min | Beginner | Step-by-step wiring and component connections |
+| 💻 [**Software Setup**](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | 20 min | Intermediate | Arduino IDE, Node-RED installation and configuration |
+| 📊 [**Dashboard Configuration**](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | 18 min | Intermediate | Node-RED flow setup and customization |
+| 📱 [**WhatsApp Integration**](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | 12 min | Advanced | Complete WhatsApp notification setup |
+| 🐛 [**Troubleshooting Guide**](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | 30 min | All Levels | Common issues and solutions |
 
 ### 📚 **Advanced Topics**
 
 | Tutorial | Focus Area | Description |
 |----------|------------|-------------|
-| 🌐 [**MQTT Deep Dive**](https://youtube.com/watch?v=mqtt-deep-dive) | Networking | Advanced MQTT configuration and debugging |
-| 🔬 [**Sensor Calibration**](https://youtube.com/watch?v=sensor-calibration) | Hardware | Precision calibration and error handling |
-| 🏠 [**Home Assistant Integration**](https://youtube.com/watch?v=homeassistant-integration) | Smart Home | Complete smart home automation setup |
-| 📈 [**Data Analytics**](https://youtube.com/watch?v=data-analytics) | Analysis | Advanced data logging and trend analysis |
+| 🌐 [**MQTT Deep Dive**](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | Networking | Advanced MQTT configuration and debugging |
+| 🔬 [**Sensor Calibration**](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | Hardware | Precision calibration and error handling |
+| 🏠 [**Home Assistant Integration**](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | Smart Home | Complete smart home automation setup |
+| 📈 [**Data Analytics**](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | Analysis | Advanced data logging and trend analysis |
 
 ### 🔴 **Live Streams & Updates**
 - **Weekly Q&A Sessions**: Fridays at 7 PM EST
@@ -47,7 +47,7 @@
 - **Community Build Sessions**: Monthly collaborative builds
 - **Troubleshooting Help**: Live assistance for common issues
 
-**Subscribe & Bell Notification**: [ESP32 Weather Monitor Channel](https://youtube.com/@esp32weathermonitor) for latest videos and live streams!
+**Subscribe & Bell Notification**: [ESP32 Weather Monitor Channel](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) for latest videos and live streams!
 
 ---
 
@@ -61,7 +61,7 @@
 4. **Dashboard**: Install Node-RED + Import flow + Deploy
 5. **Test**: View dashboard at `http://localhost:1880/ui`
 
-📺 **Video Tutorial**: [Complete Setup Guide](https://youtube.com/watch?v=setup-guide) | [Hardware Assembly](https://youtube.com/watch?v=hardware-assembly) | [Software Configuration](https://youtube.com/watch?v=software-config)
+📺 **Video Tutorial**: [Complete Setup Guide](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | [Hardware Assembly](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | [Software Configuration](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef)
 
 <details>
 <summary>📌 <strong>One-Click Setup Commands</strong></summary>
@@ -310,7 +310,7 @@ node-red-contrib-whatsapp-cmb       # WhatsApp notifications
 
 ### Step 1: Arduino IDE Setup
 
-📺 **Video Guide**: [Arduino IDE Setup for ESP32](https://youtube.com/watch?v=arduino-esp32-setup) | [Library Installation Tutorial](https://youtube.com/watch?v=library-install)
+📺 **Video Guide**: [Arduino IDE Setup for ESP32](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | [Library Installation Tutorial](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef)
 
 #### 1.1 Install Arduino IDE v2.3.4
 ```bash
@@ -396,7 +396,7 @@ node-red
 
 ## 🔌 Hardware Setup
 
-📺 **Wiring Videos**: [Complete Hardware Assembly](https://youtube.com/watch?v=hardware-wiring) | [Breadboard Layout Guide](https://youtube.com/watch?v=breadboard-guide) | [Troubleshooting Connections](https://youtube.com/watch?v=wiring-troubleshoot)
+📺 **Wiring Videos**: [Complete Hardware Assembly](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | [Breadboard Layout Guide](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | [Troubleshooting Connections](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef)
 
 ### 📐 **Complete Wiring Diagram**
 
@@ -442,13 +442,13 @@ CRITICAL: 10kΩ pull-up resistor between Data pin and VCC is REQUIRED
 
 **Breadboard Layout:**
 ```
-3.3V Rail ──┬─── DHT22 Pin  (VCC)
+3.3V Rail ──┬─── DHT22 Pin 1 (VCC)
             │
            10kΩ
             │
-GPIO    ────┼─── DHT22 Pin (Data)
+GPIO    ────┼─── DHT22 Pin 2 (Data)
             
-GND Rail ────── DHT22 Pin (GND)
+GND Rail ────── DHT22 Pin 4 (GND)
 ```
 
 </details>
@@ -612,7 +612,7 @@ Most ESP32 boards have LED connected to built-in pin
 ### Step 1: Configure Arduino Code
 
 #### 1.1 Download and Modify Code
-1. **Download** `esp32_weather_monitor.ino` from the repository
+1. **Download** `esp32_weather_monitor.ino` from the [repository](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System.git)
 2. **Open** in Arduino IDE
 3. **Modify** the following configuration sections:
 
@@ -715,7 +715,7 @@ LM35 Temp: 25.1°C
 
 ### Step 3: Import Node-RED Flow
 
-📺 **Node-RED Tutorial**: [Node-RED Installation & Setup](https://youtube.com/watch?v=nodered-setup) | [Importing Flows Guide](https://youtube.com/watch?v=import-flows) | [Dashboard Configuration](https://youtube.com/watch?v=dashboard-config)
+📺 **Node-RED Tutorial**: [Node-RED Installation & Setup](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | [Importing Flows Guide](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | [Dashboard Configuration](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef)
 
 #### 3.1 Start Node-RED
 ```bash
@@ -730,7 +730,7 @@ node-red
 1. **Open Node-RED**: Navigate to `http://localhost:1880`
 2. **Import flow**: 
    - Click **Menu** (☰) → **Import**
-   - Copy contents of `flows.txt` from repository
+   - Copy contents of `flows.txt` from [repository](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System.git)
    - Paste and click **Import**
 3. **Deploy**: Click red **Deploy** button
 
@@ -931,7 +931,7 @@ switch:
 
 ## 🔍 MQTT Testing
 
-📺 **MQTT Testing Videos**: [HiveMQ Dashboard Tutorial](https://youtube.com/watch?v=hivemq-dashboard) | [MQTT Explorer Setup](https://youtube.com/watch?v=mqtt-explorer) | [MQTT Troubleshooting Guide](https://youtube.com/watch?v=mqtt-troubleshoot)
+📺 **MQTT Testing Videos**: [HiveMQ Dashboard Tutorial](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | [MQTT Explorer Setup](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | [MQTT Troubleshooting Guide](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef)
 
 ### Option 1: HiveMQ Dashboard (Recommended)
 
@@ -1165,7 +1165,7 @@ Solutions:
 
 ## 📱 WhatsApp Integration
 
-📺 **WhatsApp Setup Video**: [Complete WhatsApp Integration Guide](https://youtube.com/watch?v=whatsapp-integration) | [CallMeBot API Setup](https://youtube.com/watch?v=callmebot-setup)
+📺 **WhatsApp Setup Video**: [Complete WhatsApp Integration Guide](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | [CallMeBot API Setup](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef)
 
 The system includes comprehensive WhatsApp notification capabilities for temperature alerts with detailed weather information.
 
@@ -1821,7 +1821,7 @@ float calibratedAnalogTemp = applyCurveFitting(analogTemp, lm35Cal, 3);
 
 ## 🐛 Troubleshooting
 
-📺 **Troubleshooting Videos**: [Common ESP32 Issues](https://youtube.com/watch?v=esp32-troubleshoot) | [Sensor Problems & Solutions](https://youtube.com/watch?v=sensor-troubleshoot) | [Network Connection Issues](https://youtube.com/watch?v=network-troubleshoot) | [Complete Diagnostic Guide](https://youtube.com/watch?v=diagnostic-guide)
+📺 **Troubleshooting Videos**: [Common ESP32 Issues](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | [Sensor Problems & Solutions](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | [Network Connection Issues](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) | [Complete Diagnostic Guide](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef)
 
 ### 🔧 **Common Issues & Solutions**
 
@@ -1860,9 +1860,9 @@ float calibratedAnalogTemp = applyCurveFitting(analogTemp, lm35Cal, 3);
    DHT22 Data Pin → 10kΩ Resistor → 3.3V
    
 2. Check wiring:
-   Pin 1 (VCC) → ESP32 3.3V  
+   Pin 1 (VCC)  → ESP32 3.3V  
    Pin 2 (Data) → ESP32 Digital Pin
-   Pin 4 (GND) → ESP32 GND
+   Pin 4 (GND)  → ESP32 GND
    
 3. Power supply issues:
    - Use 3.3V instead of 5V if unstable
@@ -1926,7 +1926,7 @@ float calibratedAnalogTemp = applyCurveFitting(analogTemp, lm35Cal, 3);
        for (byte addr = 1; addr < 127; addr++) {
            Wire.beginTransmission(addr);
            if (Wire.endTransmission() == 0) {
-               Serial.print("I2C device at 0x");
+               Serial.print("I2C device found at address 0x");
                Serial.println(addr, HEX);
            }
        }
@@ -2383,11 +2383,11 @@ We welcome contributions to improve this ESP32 Weather Monitoring System! Here's
 ```bash
 # Fork the repository on GitHub
 # Clone your fork
-git clone https://github.com/yourusername/esp32-weather-monitor.git
-cd esp32-weather-monitor
+git clone https://github.com/yourusername/ESP32-Weather-Monitoring-System.git
+cd ESP32-Weather-Monitoring-System
 
 # Set up upstream remote
-git remote add upstream https://github.com/originalauthor/esp32-weather-monitor.git
+git remote add upstream https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System.git
 
 # Create development branch
 git checkout -b feature/your-feature-name
@@ -2506,7 +2506,7 @@ git push origin feature/your-feature-name
 3. **International Setup**: Configuration for different countries/APIs
 4. **Advanced Configurations**: Enterprise deployment guides
 
-📺 **Our YouTube Channel**: [ESP32 Weather Monitor Tutorials](https://youtube.com/@esp32weathermonitor) - Subscribe for latest video guides, troubleshooting tips, and project updates!
+📺 **Our YouTube Channel**: [ESP32 Weather Monitor Tutorials](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef) - Subscribe for latest video guides, troubleshooting tips, and project updates!
 
 ### 🏷️ **Issue Labels & Project Management**
 
@@ -2780,14 +2780,14 @@ This project promotes environmental awareness through:
 
 ### 🌟 **Star History**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/esp32-weather-monitor&type=Date)](https://star-history.com/#yourusername/esp32-weather-monitor&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=HorizonHnk/ESP32-Weather-Monitoring-System&type=Date)](https://star-history.com/#HorizonHnk/ESP32-Weather-Monitoring-System&Date)
 
 ### 📊 **Project Statistics**
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/esp32-weather-monitor?style=for-the-badge&logo=github)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/esp32-weather-monitor?style=for-the-badge&logo=github)
-![GitHub watchers](https://img.shields.io/github/watchers/yourusername/esp32-weather-monitor?style=for-the-badge&logo=github)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/esp32-weather-monitor?style=for-the-badge&logo=github)
+![GitHub stars](https://img.shields.io/github/stars/HorizonHnk/ESP32-Weather-Monitoring-System?style=for-the-badge&logo=github)
+![GitHub forks](https://img.shields.io/github/forks/HorizonHnk/ESP32-Weather-Monitoring-System?style=for-the-badge&logo=github)
+![GitHub watchers](https://img.shields.io/github/watchers/HorizonHnk/ESP32-Weather-Monitoring-System?style=for-the-badge&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/HorizonHnk/ESP32-Weather-Monitoring-System?style=for-the-badge&logo=github)
 
 ### 🏆 **Project Achievements**
 
@@ -2799,14 +2799,12 @@ This project promotes environmental awareness through:
 
 ### 🔗 **Quick Navigation**
 
-[🏠 Home](../../) • [📋 Issues](../../issues) • [🔄 Pull Requests](../../pulls) • [📖 Wiki](../../wiki) • [💬 Discussions](../../discussions) • [📈 Insights](../../pulse)
+[🏠 Home](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System) • [📋 Issues](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/issues) • [🔄 Pull Requests](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/pulls) • [📖 Wiki](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/wiki) • [💬 Discussions](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/discussions) • [📈 Insights](https://github.com/HorizonHnk/ESP32-Weather-Monitoring-System/pulse)
 
 ### 📱 **Connect With Us**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/yourusername)
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://youtube.com/@esp32weathermonitor)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter)](https://twitter.com/yourhandle)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/HorizonHnk)
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://youtube.com/playlist?list=PLrZbkNpNVSwxFrpzZmIKzraAUmH_vNkET&si=Y3f_a5mZTr7jK3ef)
 
 📺 **YouTube Channel Features:**
 - 🎥 **Complete Tutorials**: Step-by-step video guides for assembly and setup
@@ -2839,7 +2837,7 @@ Your support helps us:
 
 ### 📄 **Repository Information**
 
-**Repository Name**: `esp32-weather-monitor`  
+**Repository Name**: `ESP32-Weather-Monitoring-System`  
 **Primary Language**: C++ (Arduino), JavaScript (Node-RED)  
 **License**: MIT License  
 **Version**: 1.0.0  
