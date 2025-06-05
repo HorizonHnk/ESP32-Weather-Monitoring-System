@@ -55,7 +55,7 @@
 
 **Get running in 20 minutes:**
 
-1. **Hardware**: Connect DHT22 (GPIO 18), LM35 (GPIO 33), LCD (I2C), Fan (GPIO 15), Buzzer (GPIO 12)
+1. **Hardware**: Connect DHT22, LM35, LCD (I2C), Fan, Buzzer to ESP32
 2. **Software**: Install Arduino IDE v2.3.4 + ESP32 v2.0.14 + Required libraries
 3. **Code**: Upload Arduino sketch with your WiFi credentials
 4. **Dashboard**: Install Node-RED + Import flow + Deploy
@@ -195,7 +195,7 @@ DHT22 (AM2302) Digital Temperature & Humidity Sensor:
 
 Pin Configuration (facing the front):
 Pin 1: VCC (3.3V/5V)
-Pin 2: Data (to GPIO 18 + 10kΩ pullup)
+Pin 2: Data (to GPIO + 10kΩ pullup)
 Pin 3: Not connected
 Pin 4: GND
 ```
@@ -216,7 +216,7 @@ LM35 Precision Analog Temperature Sensor:
 
 Pin Configuration (flat side facing you):
 Pin 1: VCC (3.3V)
-Pin 2: Output (to GPIO 33)
+Pin 2: Output
 Pin 3: GND
 ```
 
@@ -244,16 +244,16 @@ Circuit Configuration:
                          │
                   ┌──────┴──────┐
                   │      C      │ Collector
-GPIO 15 ──[4kΩ]── │ B  TIP122   │
+GPIO    ──[4kΩ]── │ B  TIP122   │
                   │      E      │ Emitter  
                   └──────┬──────┘
                          │
                      ┌───┴───┐
-                     │1N4007│ Flyback Diode
+                     │ 1N4007│ Flyback Diode
                      │ Diode │ (Cathode to +5V)
                      └───┬───┘
                          │
-                       ─┴─ GND
+                        ─┴─ GND
 ```
 
 </details>
@@ -407,13 +407,13 @@ ESP32 Development Board (Top View)
 │ │ USB │               │RST│ │ BOOT│ │  
 │ └─────┘               └───┘ └─────┘ │
 │                                     │
-│ 3V3 ●─────────────────────────────● VIN (5V)
-│ GND ●                             ● GND  
-│ D18 ●──────[DHT22 Data + 10kΩ]   ● D23
-│ D21 ●──────[LCD SDA]             ● D22 ●──[LCD SCL]
-│ D33 ●──────[LM35 Output]         ● D1 
-│ D12 ●──────[Buzzer +]            ● D3
-│ D15 ●──[4kΩ]──[TIP122 Base]     ● D2  ●──[Status LED]
+│   3V3 ●─────────────────────────────● VIN (5V)
+│   GND ●                             ● GND  
+│    DXX ●──────[DHT22 Data + 10kΩ]   ● DXX
+│    SDA ●──────[LCD SDA]             ● SCL ●──[LCD SCL]
+│    AXX ●──────[LM35 Output]         ● DXX 
+│    DXX ●──────[Buzzer +]            ● DXX
+│     PWM ●──[4kΩ]──[TIP122 Base]     ● LED ●──[Status LED]
 │                                     │
 └─────────────────────────────────────┘
 ```
@@ -433,7 +433,7 @@ DHT22 Pinout (facing component front):
 
 Connections:
 Pin 1 (VCC)  → ESP32 3.3V
-Pin 2 (Data) → ESP32 GPIO 18 + 10kΩ resistor to 3.3V  
+Pin 2 (Data) → ESP32 GPIO + 10kΩ resistor to 3.3V  
 Pin 3 (NC)   → Not connected
 Pin 4 (GND)  → ESP32 GND
 
@@ -442,13 +442,13 @@ CRITICAL: 10kΩ pull-up resistor between Data pin and VCC is REQUIRED
 
 **Breadboard Layout:**
 ```
-3.3V Rail ──┬─── DHT22 Pin 1 (VCC)
+3.3V Rail ──┬─── DHT22 Pin  (VCC)
             │
            10kΩ
             │
-GPIO 18 ────┼─── DHT22 Pin 2 (Data)
+GPIO    ────┼─── DHT22 Pin (Data)
             
-GND Rail ────── DHT22 Pin 4 (GND)
+GND Rail ────── DHT22 Pin (GND)
 ```
 
 </details>
@@ -468,7 +468,7 @@ LM35 Pinout (flat side facing you):
 
 Connections:
 Pin 1 (VCC)    → ESP32 3.3V
-Pin 2 (Output) → ESP32 GPIO 33 (ADC1_CH5)
+Pin 2 (Output) → ESP32 GPIO (ADC1_CH5)
 Pin 3 (GND)    → ESP32 GND
 
 Note: LM35 outputs 10mV per degree Celsius
@@ -491,8 +491,8 @@ LCD I2C Module (back view):
 Connections:
 GND → ESP32 GND
 VCC → ESP32 5V (or 3.3V if 5V not available)
-SDA → ESP32 GPIO 21 (I2C Data)
-SCL → ESP32 GPIO 22 (I2C Clock)
+SDA → ESP32 SDA Pin (I2C Data)
+SCL → ESP32 SCL Pin (I2C Clock)
 
 Default I2C Address: 0x27 (may be 0x3F on some modules)
 ```
@@ -501,7 +501,7 @@ Default I2C Address: 0x27 (may be 0x3F on some modules)
 ```cpp
 #include <Wire.h>
 void setup() {
-  Wire.begin(21, 22);  // SDA, SCL
+  Wire.begin(SDA_PIN, SCL_PIN);  // SDA, SCL
   Serial.begin(115200);
   Serial.println("I2C Scanner");
 }
@@ -547,7 +547,7 @@ void loop() {
    └─┬─┘ │               │
      │   │               │
      │   │      4kΩ      │
-+5V──┘   └──[RESISTOR]───┼────── GPIO 15 (PWM)
++5V──┘   └──[RESISTOR]───┼────── GPIO (PWM)
                          │
                         GND ──── ESP32 GND
 
@@ -574,7 +574,7 @@ Component Notes:
 **Buzzer Connection:**
 ```
 Active Buzzer (has internal oscillator):
-Positive → GPIO 12
+Positive → Digital Pin
 Negative → GND
 
 Note: Code uses tone() function which works with both active and passive buzzers
@@ -583,11 +583,11 @@ Note: Code uses tone() function which works with both active and passive buzzers
 **Status LED (Optional - ESP32 has built-in LED):**
 ```
 External LED (if desired):
-Anode (+) → 330Ω resistor → GPIO 2
+Anode (+) → 330Ω resistor → Digital Pin
 Cathode (-) → GND
 
 Built-in LED:
-Most ESP32 boards have LED connected to GPIO 2
+Most ESP32 boards have LED connected to built-in pin
 ```
 
 </details>
@@ -1175,8 +1175,8 @@ The system includes comprehensive WhatsApp notification capabilities for tempera
 
 1. **Add Contact**: Add this number to your WhatsApp contacts: `+34 644 59 71 29`
 2. **Send Activation**: Send this exact message: `I allow callmebot to send me messages`
-3. **Get API Key**: You'll receive your personal API key (e.g., `7145060`)
-4. **Save Details**: Note your phone number in international format (e.g., `+27719568735`)
+3. **Get API Key**: You'll receive your personal API key (e.g., `1234567`)
+4. **Save Details**: Note your phone number in international format (e.g., `+1234567890`)
 
 #### **Step 2: Configure Node-RED Flow**
 
@@ -1185,8 +1185,8 @@ The system includes comprehensive WhatsApp notification capabilities for tempera
 3. **Edit Configuration**:
    ```javascript
    // Update these values in the function:
-   var phone = "+XX XX XXX XXXX";        // ← Your phone number
-   var apikey = "XXXXXXX";            // ← Your API key
+   var phone = "+1234567890";        // ← Your phone number
+   var apikey = "1234567";           // ← Your API key
    ```
 4. **Deploy Changes**: Click red **Deploy** button
 
@@ -1204,7 +1204,7 @@ When temperature exceeds threshold, you'll receive:
 • Threshold: 28.0°C  
 • Sensor: DHT22 Digital Sensor
 
-🌤️ CAPE TOWN WEATHER:
+🌤️ CITY WEATHER:
 • API Temperature: 22.8°C
 • Conditions: clear sky
 • Humidity: 65%
@@ -1238,8 +1238,8 @@ To send alerts to multiple recipients:
    ```javascript
    // Array of recipients
    var recipients = [
-       {phone: "+27719568735", apikey: "7145060"},
-       {phone: "+1234567890", apikey: "9876543"},
+       {phone: "+0021234502", apikey: "1256789"},
+       {phone: "+1234567890", apikey: "0965424"},
        // Add more recipients
    ];
    
@@ -1861,7 +1861,7 @@ float calibratedAnalogTemp = applyCurveFitting(analogTemp, lm35Cal, 3);
    
 2. Check wiring:
    Pin 1 (VCC) → ESP32 3.3V  
-   Pin 2 (Data) → ESP32 GPIO 18
+   Pin 2 (Data) → ESP32 Digital Pin
    Pin 4 (GND) → ESP32 GND
    
 3. Power supply issues:
@@ -1922,7 +1922,7 @@ float calibratedAnalogTemp = applyCurveFitting(analogTemp, lm35Cal, 3);
 1. I2C address detection:
    #include <Wire.h>
    void scanI2C() {
-       Wire.begin(21, 22);
+       Wire.begin(SDA_PIN, SCL_PIN);
        for (byte addr = 1; addr < 127; addr++) {
            Wire.beginTransmission(addr);
            if (Wire.endTransmission() == 0) {
@@ -1938,7 +1938,7 @@ float calibratedAnalogTemp = applyCurveFitting(analogTemp, lm35Cal, 3);
    LiquidCrystal_I2C lcd(0x26, 16, 2);  // Some modules
    
 3. Hardware checks:
-   - Verify SDA (GPIO 21) and SCL (GPIO 22) connections
+   - Verify SDA and SCL connections
    - Check 5V power supply (3.3V may work but dimmer)
    - Try different I2C module if available
    
